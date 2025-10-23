@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IBYTE Agency — Automatizamos tu marketing con IA</title>
+    <link rel="icon" href="/src/assets/favicon.svg" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">
+          <img src="/src/assets/logo.svg" alt="IBYTE Agency" />
+        </div>
+        <nav class="main-nav">
+          <a href="#services">Servicios</a>
+          <a href="#cases">Casos</a>
+          <a href="#contact">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+  <section id="hero" class="hero">
+    <div class="container hero-inner">
+      <h1 class="hero-title">We make digital products that convert.</h1>
+      <p class="hero-sub">IBYTE Agency — diseño, estrategia y desarrollo para marcas ambiciosas.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container">
+      <h2 data-anim>Servicios</h2>
+      <div class="cards">
+        <div class="card" data-anim>
+          <h3>Branding</h3>
+          <p>Identidad, dirección visual y estrategia de marca.</p>
+        </div>
+        <div class="card" data-anim>
+          <h3>Web & Apps</h3>
+          <p>Interfaces limpias, rápidas y accesibles.</p>
+        </div>
+        <div class="card" data-anim>
+          <h3>Marketing</h3>
+          <p>Estrategias de crecimiento con foco en métricas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cases" class="section">
+    <div class="container">
+      <h2 data-anim>Casos</h2>
+      <div class="cases">
+        <article class="case" data-anim>
+          <h3>Proyecto A</h3>
+          <p>Solución de e‑commerce moderna.</p>
+        </article>
+        <article class="case" data-anim>
+          <h3>Proyecto B</h3>
+          <p>Aplicación SaaS con foco en retención.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 data-anim>Contacto</h2>
+      <form id="contact-form">
+        <label><input type="text" name="name" placeholder="Nombre" required /></label>
+        <label><input type="email" name="email" placeholder="Correo" required /></label>
+        <label><textarea name="message" placeholder="Mensaje" required></textarea></label>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+    <footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> IBYTE Agency. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script type="module" src="./src/main.js"></script>
+  </body>
+</html>

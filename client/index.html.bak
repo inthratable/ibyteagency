@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IBYTE Agency — Automatizamos tu marketing con IA</title>
+    <link rel="icon" href="/src/assets/favicon.svg" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">
+          <img src="/src/assets/logo.svg" alt="IBYTE Agency" />
+        </div>
+        <nav class="main-nav">
+          <a href="#services">Servicios</a>
+          <a href="#cases">Casos</a>
+          <a href="#contact">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container hero-inner">
+          <h1 class="hero-title">Automatizamos tu marketing con inteligencia artificial</h1>
+          <p class="hero-sub">Estrategias data-driven, creativas y escalables para empresas que quieren crecer.</p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">Contáctanos</a>
+            <a href="#services" class="btn btn-ghost">Ver servicios</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="container">
+          <h2 class="section-title">Servicios</h2>
+          <div class="cards">
+            <article class="card" data-anim>
+              <h3>Automatización de campañas</h3>
+              <p>Flujos inteligentes que optimizan conversiones y reducen coste por lead.</p>
+            </article>
+            <article class="card" data-anim>
+              <h3>Generación de contenido IA</h3>
+              <p>Contenido persuasivo y optimizado para SEO generado con modelos avanzados.</p>
+            </article>
+            <article class="card" data-anim>
+              <h3>Analítica y optimización</h3>
+              <p>Dashboards accionables y tests A/B para maximizar ROI.</p>
+            </article>
+            <article class="card" data-anim>
+              <h3>Integraciones & APIs</h3>
+              <p>Conecta tus herramientas y automatiza tareas repetitivas con arquitectura robusta.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cases" id="cases">
+        <div class="container">
+          <h2 class="section-title">Casos de éxito</h2>
+          <div class="case-grid">
+            <figure class="case" data-anim>
+              <img src="/src/assets/case1.svg" alt="Caso 1 placeholder" />
+              <figcaption>Cliente A — +120% conversiones</figcaption>
+            </figure>
+            <figure class="case" data-anim>
+              <img src="/src/assets/case2.svg" alt="Caso 2 placeholder" />
+              <figcaption>Cliente B — Reducción CPC 34%</figcaption>
+            </figure>
+            <figure class="case" data-anim>
+              <img src="/src/assets/case3.svg" alt="Caso 3 placeholder" />
+              <figcaption>Cliente C — Escalado global</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="section-title">Contacto</h2>
+          <form class="contact-form" id="contact-form">
+            <div class="field">
+              <label for="name">Nombre</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+            <div class="field">
+              <label for="email">Correo</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+            <div class="field">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="field actions">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> IBYTE Agency. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script type="module" src=\"./src/main.js\"></script>
+  </body>
+</html>

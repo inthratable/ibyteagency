@@ -1,0 +1,20 @@
+{
+  "name": "ibyte-agency",
+  "version": "1.0.0",
+  "description": "IBYTE Agency - Specializing in Artificial Intelligence and Digital Marketing",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server run start",
+    "dev": "concurrently \"npm run client\" \"npm run server\"",
+    "build": "npm --prefix client run build"
+  },
+  "dependencies": {
+    "concurrently": "^6.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

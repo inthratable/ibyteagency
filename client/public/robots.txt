@@ -1,0 +1,35 @@
+ibyte-agency
+├── client
+│   ├── public
+│   │   ├── favicon.svg
+│   │   └── robots.txt
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   │   ├── layout
+│   │   │   ├── shared
+│   │   │   └── ui
+│   │   ├── hooks
+│   │   ├── pages
+│   │   ├── styles
+│   │   ├── types
+│   │   ├── utils
+│   │   ├── App.tsx
+│   │   └── main.tsx
+│   ├── index.html
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── vite.config.ts
+├── server
+│   ├── src
+│   │   ├── controllers
+│   │   ├── models
+│   │   ├── routes
+│   │   ├── types
+│   │   ├── utils
+│   │   ├── app.ts
+│   │   └── server.ts
+│   ├── package.json
+│   └── tsconfig.json
+├── package.json
+└── README.md
